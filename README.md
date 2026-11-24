@@ -28,15 +28,17 @@ Saved videos and hidden entries are stored in the launcher’s private preferenc
 
 ## Build and recovery
 
-The deployed layout was verified on a Hisense TV on November 24, 2026. The release unit test report showed 351 passing tests. Release lint reported zero errors and 98 warnings.
+The screenshots show the layout verified on a Hisense HiSmartTV A4 running Android TV 9. The cleanup revision in this repository passed 350 release unit tests and assembled successfully. Release lint reported zero errors and 98 warnings. The cleanup revision was verified locally.
 
-The launcher build uses JDK 17, Android SDK Platform 34, and Build Tools 34.0.0. From the launcher directory of a source checkout, run:
+The launcher build uses JDK 17, Android SDK Platform 34, and Build Tools 34.0.0. From the `launcher/` directory of this repository, run:
 
 ~~~powershell
 .\gradlew.bat --no-daemon testReleaseUnitTest lintRelease assembleRelease
 ~~~
 
 For an in-place update, the APK needs the same signer as the installed launcher. Verify the installed APK hash and the default Home resolver after an update. Keep the previous signed APK for layout rollback.
+
+See [FORK.md](FORK.md) for the permission and data details.
 
 ## Credits
 

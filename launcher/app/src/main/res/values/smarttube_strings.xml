@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="smarttube_continue">Continue Watching · SmartTube</string>
+    <string name="smarttube_recommendations">SmartTube Recommendations</string>
+    <string name="smarttube_subscriptions">SmartTube Subscriptions</string>
+    <string name="smarttube_heading_unavailable">%1$s · Refresh unavailable</string>
+    <string name="smarttube_heading_permission">%1$s · TV listings access needed</string>
+    <string name="smarttube_loading">Loading SmartTube videos</string>
+    <string name="smarttube_permission">Allow TV listings access in Android TV app settings</string>
+    <string name="smarttube_unavailable">SmartTube feed unavailable</string>
+    <string name="smarttube_continue_empty">Hold OK on a video below to add it here</string>
+    <string name="smarttube_feed_empty">Waiting for SmartTube to publish videos</string>
+    <string name="smarttube_add">Add to Continue Watching</string>
+    <string name="smarttube_remove">Remove from Continue Watching</string>
+    <string name="smarttube_added">Added to Continue Watching</string>
+    <string name="smarttube_removed">Removed from Continue Watching</string>
+</resources>
